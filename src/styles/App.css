@@ -61,6 +61,56 @@
 	}
 }
 
+#footer{
+	background-color: #4a4f58;
+	position: relative;
+	bottom: 0;
+}
+ul.socialIcons {
+	padding: 0;
+	text-align: center;
+}
+.socialIcons li {
+	background: yellow;
+	list-style: none;
+	display: inline-block;
+	margin: 15px;
+	margin-top: 15%;
+	border-radius: 2em;
+	overflow:hidden;
+}
+.socialIcons li a {
+	display: block;
+	padding: .5em;
+	max-width: 2.3em;
+	min-width: 2.3em;
+	height: 2.3em;
+	white-space: nowrap;
+	line-height: 1.5em;
+	transition:.5s;
+	text-decoration: none;
+	font-family: arial;
+	color: #fff;
+}
+.socialIcons li i {
+	margin-right:.5em;
+}
+.socialIcons li:hover a {
+	max-width:200px;
+	padding-right:1em;
+}
+.socialIcons .github {
+	background: #24292e;
+	box-shadow: 0 0 16px #24292e;
+}
+.socialIcons .linkedin {
+	background: #0077B5;
+	box-shadow: 0 0 16px #0077B5;
+}
+.socialIcons .google {
+	background: #d93025;
+	box-shadow: 0 0 16px #d93025;
+}
 
 @media screen and (max-width: 1024px) { /* Specific to this particular video */
 	.bg {
