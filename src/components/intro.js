@@ -7,8 +7,8 @@ export default class Intro extends Component {
 		return (
 			<section id="intro">
 				<div align="left" className="embed-responsive embed-responsive-16by9">
-    			<video className="embed-responsive-item hidden-sm-down" autoPlay loop muted>
-        		<source  src={bodyBackgroundVideo} type="video/mp4"/>
+    			<video playsInline className="embed-responsive-item hidden-sm-down" autoPlay loop muted>
+        		<source type="video/mp4" src={bodyBackgroundVideo} />
 					</video>
 				</div>
 			</section>
