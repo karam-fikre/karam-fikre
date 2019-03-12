@@ -1,17 +1,14 @@
 import React, { Component } from 'react'
-import bodyBackgroundVideo from '../files/bodyBackgroundVideo.mp4';
 
 
 export default class Intro extends Component {
 	render() {
 		return (
-			<section id="intro">
-				<div align="left" className="embed-responsive embed-responsive-16by9">
-    			<video playsInline className="embed-responsive-item hidden-sm-down" autoPlay loop muted>
-        		<source type="video/mp4" src={bodyBackgroundVideo} />
-					</video>
-				</div>
-			</section>
+					<ul className="socialIcons">
+						<li className="github"><a href="https://github.com/karam-fikre" target="_blank"><i className="fa fa-fw fa-github"></i>Github</a></li> 
+						<li className="linkedin"><a href="https://www.linkedin.com/in/karam-aldulaimi-a84538150/" target="_blank"><i className="fa fa-fw fa-linkedin"></i>Linked-in</a></li> 
+						<li className="google"><a href="mailto:karamfikre@gmail.com" target="_blank"><i className="fa fa-fw fa-google"></i>Mail</a></li>
+					</ul>
 		)
 	}
 }
