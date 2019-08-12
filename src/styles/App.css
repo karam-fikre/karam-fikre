@@ -45,6 +45,7 @@ ul.socialIcons {
 	float: left;
 	top: 40%;
 	right:1%;
+	max-width: 67px;
 }
 .socialIcons li {
 	background: yellow;
@@ -53,7 +54,8 @@ ul.socialIcons {
 	overflow:hidden;
   content: "";
   display: table;
-  clear: left;
+	clear: left;
+	float: right;
 }
 .socialIcons li a {
 	display: block;
