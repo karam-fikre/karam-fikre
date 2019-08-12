@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class NavMenu extends Component {
 	render() {
 		return (
 			<section id="navmenu" >
 				<ul>
-					<li><a href="./">Start</a></li>
-					<li><a href="#">About</a></li>
+					<Link to="/"><i>Start</i></Link>
+					<Link to="/about"><i>About</i></Link>
 				</ul>
 			</section>
 		);
