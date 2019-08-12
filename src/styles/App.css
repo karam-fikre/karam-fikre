@@ -1,3 +1,7 @@
+html,body{
+background-color: #24292e;
+}
+
 .app {
   height: 100%;
 	margin: 0;
@@ -5,9 +9,6 @@
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
-}
-
-.app { 
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -16,15 +17,17 @@
 #navmenu{
 	bottom: 10%;
 	position: absolute;
+	left: 1%;
 }
-#navmenu ul a i{
+#navmenu a{
 background-color: #124524;
 align-content: center;
 border: #0077B5;
 border-radius: 5px;
 margin: 10px;
+text-decoration: none;
 }
-#navmenu ul a i{
+#navmenu a i{
 	margin: 5px;
 	color: #F9F871;
 	text-decoration: none; 
@@ -38,6 +41,7 @@ margin: 10px;
 		transform: rotate(360deg);
 	}
 }
+
 ul.socialIcons {
 	padding: 0;
 	text-align: center;
@@ -90,6 +94,20 @@ ul.socialIcons {
 	box-shadow: 0 0 16px #d93025;
 }
 
+#about{
+	border-radius: 1rem;
+	margin: 1rem;
+	background-color: rgb(15, 15, 15);
+	height: 95vh;
+	box-shadow: 2px 2px rgb(22, 22, 22);
+}
+#about h1{
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+	color: rgb(92, 88, 88)
+}
 @media screen and (max-width: 720px) { /* Specific to this particular video */
-
+	#navmenu{
+		left: 4%;
+	}
 }

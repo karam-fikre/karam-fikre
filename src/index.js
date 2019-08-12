@@ -6,14 +6,16 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import About  from './components/about';
 import NavMenu from "./components/NavMenu";
+import Intro from "./components/intro";
 
 ReactDOM.render((
 	<BrowserRouter>
 		<Switch>
 			<Route exact path="/" component={App} />,
 			<Route path="/about" component={About} />
-		</Switch>,
-		<NavMenu/>
+		</Switch>
+		<NavMenu />
+		<Intro />
 	</BrowserRouter>),
 	document.getElementById('root')
 );
